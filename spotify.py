@@ -15,6 +15,13 @@ SPOTIPY_CLIENT_ID='c6ce5af1c46b4145bd77d022b9f5397f'
 SPOTIPY_CLIENT_SECRET='176e9e416772492e94bb6d9fa908e2c1'
 SPOTIPY_REDIRECT_URI='http://localhost:3000'
 
+''' TO DO
+1. Make the Auth case much more simpler and cleaner
+2. Use pygame to display the name and artist of the song. Display art with image
+3. Simultaneously, check if Spotify is actively playing if not reduce request from spotify
+4. Act like a playback tracker with skipping and bar tracking. (more complex)
+5. Implement the lyrics part (what is currently being played)
+'''
 def retrieve_song():
     # If playing a song will return the song data
     scope = "user-read-currently-playing"
