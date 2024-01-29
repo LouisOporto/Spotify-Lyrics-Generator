@@ -1,27 +1,23 @@
-import spotipy
+import spotipy, sys, time
 from spotipy.oauth2 import SpotifyOAuth
-
 import spotipy.util as util
-import sys
 
-import time
-
-''' alternative
-export SPOTIPY_CLIENT_ID='c6ce5af1c46b4145bd77d022b9f5397f'
-export SPOTIPY_CLIENT_SECRET='176e9e416772492e94bb6d9fa908e2c1'
-export SPOTIPY_REDIRECT_URI='http://localhost:3000'
-'''
 SPOTIPY_CLIENT_ID='c6ce5af1c46b4145bd77d022b9f5397f'
 SPOTIPY_CLIENT_SECRET='176e9e416772492e94bb6d9fa908e2c1'
 SPOTIPY_REDIRECT_URI='http://localhost:3000'
 
-''' TO DO
+''' TO DO LIST
 1. Make the Auth case much more simpler and cleaner
 2. Use pygame to display the name and artist of the song. Display art with image
 3. Simultaneously, check if Spotify is actively playing if not reduce request from spotify
-4. Act like a playback tracker with skipping and bar tracking. (more complex)
-5. Implement the lyrics part (what is currently being played)
+4. Find out the best way to access data from Spotify (reduce calls)
+5. ADD MORE HERE (-----------)
+6. Settings to config to adjust settings
+7. Act like a playback tracker with skipping and bar tracking. (more complex)
+8. Implement the lyrics part (what is currently being played)
+9. Audio Spectrum accurate to base and treble
 '''
+
 def retrieve_song():
     # If playing a song will return the song data
     scope = "user-read-currently-playing"
@@ -32,6 +28,7 @@ def retrieve_song():
     print("Currently playing " + track['name'] + " by " + track['artists'][0]['name'])
     return track
 
+
 def check_spotify_active():
     # Checks if spotify is currently opened and currently playing a song
     pass
@@ -41,12 +38,13 @@ def retrieve_lyrics():
     # Search for lyrics online to be returned either as a string or graphical display
     pass
 
+
 def init():
     # Initialize pygame to display text while the song plays
     pass
 
-def main():
 
+def main():
     # Area for main loop of the game where it checks for activity and recieves updates at a set interval
     print("Welcome to Spotify Lyrics")
     interval = int(input("At what interval do you want to update the song?(5 - 30 sec):"))
@@ -61,6 +59,12 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+''' alt
+export SPOTIPY_CLIENT_ID='c6ce5af1c46b4145bd77d022b9f5397f'
+export SPOTIPY_CLIENT_SECRET='176e9e416772492e94bb6d9fa908e2c1'
+export SPOTIPY_REDIRECT_URI='http://localhost:3000'
+'''
 
 '''
 {'album': {'album_type': 'album',
