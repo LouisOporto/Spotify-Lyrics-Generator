@@ -1,0 +1,138 @@
+This is the format for how "results = sp.current_playback()" returns when spotify is playing else NONE.
+{
+'device': {
+    'id': '66cb57813aac17a5c20aa23868428ad53b00481f',
+    'is_active': True,
+    'is_private_session': False,
+    'is_restricted': False,
+    'name': 'MONKEBALLS',
+    'supports_volume': True,
+    'type': 'Computer',
+    'volume_percent': 70
+    },
+'shuffle_state': False,
+'smart_shuffle': False,
+'repeat_state': 'off',
+'timestamp': 1706544862935,
+'context': {
+    'external_urls': {
+        'spotify': 'https://open.spotify.com/playlist/4iu3pF8YGMZPsFy8Av2yKL'
+        },
+    'href': 'https://api.spotify.com/v1/playlists/4iu3pF8YGMZPsFy8Av2yKL',
+    'type': 'playlist',
+    'uri': 'spotify:playlist:4iu3pF8YGMZPsFy8Av2yKL'
+    },
+'progress_ms': 39914,
+'item': {
+    'album': {
+        'album_type': 'album',
+        'artists':
+            [
+            {
+            'external_urls': {
+                'spotify': 'https://open.spotify.com/artist/0yFBqybFvMQp2y7AanSl0Z'
+                },
+            'href': 'https://api.spotify.com/v1/artists/0yFBqybFvMQp2y7AanSl0Z',
+            'id': '0yFBqybFvMQp2y7AanSl0Z',
+            'name': 'Samwise',
+            'type': 'artist',
+            'uri': 'spotify:artist:0yFBqybFvMQp2y7AanSl0Z'
+            },
+            {
+            'external_urls': {
+                'spotify': 'https://open.spotify.com/artist/7B2DA6KU0k3hJaENyOBXB4'
+                },
+            'href': 'https://api.spotify.com/v1/artists/7B2DA6KU0k3hJaENyOBXB4',
+            'id': '7B2DA6KU0k3hJaENyOBXB4',
+            'name': 'johto',
+            'type': 'artist',
+            'uri': 'spotify:artist:7B2DA6KU0k3hJaENyOBXB4'
+            }
+            ],
+        'available_markets': ['AR', 'AU', 'AT', 'BE', 'BO', 'BR', 'BG', 'CA', 'CL', 'CO', 'CR', 'CY', 'CZ', 'DK', 'DO', 'DE', 'EC', 'EE', 'SV', 'FI', 'FR', 'GR', 'GT', 'HN', 'HK', 'HU', 'IS', 'IE', 'IT', 'LV', 'LT', 'LU', 'MY', 'MT', 'MX', 'NL', 'NZ', 'NI', 'NO', 'PA', 'PY', 'PE', 'PH', 'PL', 'PT', 'SG', 'SK', 'ES', 'SE', 'CH', 'TW', 'TR', 'UY', 'US', 'GB', 'AD', 'LI', 'MC', 'ID', 'JP', 'TH', 'VN', 'RO', 'IL', 'ZA', 'SA', 'AE', 'BH', 'QA', 'OM', 'KW', 'EG', 'MA', 'DZ', 'TN', 'LB', 'JO', 'PS', 'IN', 'BY', 'KZ', 'MD', 'UA', 'AL', 'BA', 'HR', 'ME', 'MK', 'RS', 'SI', 'KR', 'BD', 'PK', 'LK', 'GH', 'KE', 'NG', 'TZ', 'UG', 'AG', 'AM', 'BS', 'BB', 'BZ', 'BT', 'BW', 'BF', 'CV', 'CW', 'DM', 'FJ', 'GM', 'GE', 'GD', 'GW', 'GY', 'HT', 'JM', 'KI', 'LS', 'LR', 'MW', 'MV', 'ML', 'MH', 'FM', 'NA', 'NR', 'NE', 'PW', 'PG', 'WS', 'SM', 'ST', 'SN', 'SC', 'SL', 'SB', 'KN', 'LC', 'VC', 'SR', 'TL', 'TO', 'TT', 'TV', 'VU', 'AZ', 'BN', 'BI', 'KH', 'CM', 'TD', 'KM', 'GQ', 'SZ', 'GA', 'GN', 'KG', 'LA', 'MO', 'MR', 'MN', 'NP', 'RW', 'TG', 'UZ', 'ZW', 'BJ', 'MG', 'MU', 'MZ', 'AO', 'CI', 'DJ', 'ZM', 'CD', 'CG', 'IQ', 'LY', 'TJ', 'VE', 'ET', 'XK'],
+        'external_urls': {
+            'spotify': 'https://open.spotify.com/album/4ZXWRWVd6DZbBtHMlpnIiD'
+            },
+        'href': 'https://api.spotify.com/v1/albums/4ZXWRWVd6DZbBtHMlpnIiD',
+        'id': '4ZXWRWVd6DZbBtHMlpnIiD',
+        'images':
+            [
+            {
+            'height': 640,
+            'url': 'https://i.scdn.co/image/ab67616d0000b273e5bc616a771fef55105ab4a9',
+            'width': 640
+            },
+            {
+            'height': 300,
+            'url': 'https://i.scdn.co/image/ab67616d00001e02e5bc616a771fef55105ab4a9',
+            'width': 300
+            },
+            {
+            'height': 64,
+            'url': 'https://i.scdn.co/image/ab67616d00004851e5bc616a771fef55105ab4a9',
+            'width': 64
+            }
+            ],
+        'name': 'Winter Chill',
+        'release_date': '2018-04-06',
+        'release_date_precision': 'day',
+        'total_tracks': 30,
+        'type': 'album',
+        'uri': 'spotify:album:4ZXWRWVd6DZbBtHMlpnIiD'
+        },
+    'artists':
+        [
+        {
+        'external_urls': {
+            'spotify': 'https://open.spotify.com/artist/0yFBqybFvMQp2y7AanSl0Z'
+            },
+        'href': 'https://api.spotify.com/v1/artists/0yFBqybFvMQp2y7AanSl0Z',
+        'id': '0yFBqybFvMQp2y7AanSl0Z',
+        'name': 'Samwise',
+        'type': 'artist',
+        'uri': 'spotify:artist:0yFBqybFvMQp2y7AanSl0Z'
+        },
+        {
+        'external_urls': {
+            'spotify': 'https://open.spotify.com/artist/7B2DA6KU0k3hJaENyOBXB4'
+            },
+        'href': 'https://api.spotify.com/v1/artists/7B2DA6KU0k3hJaENyOBXB4',
+        'id': '7B2DA6KU0k3hJaENyOBXB4',
+        'name': 'johto',
+        'type': 'artist',
+        'uri': 'spotify:artist:7B2DA6KU0k3hJaENyOBXB4'
+        }
+        ],
+    'available_markets': ['AR', 'AU', 'AT', 'BE', 'BO', 'BR', 'BG', 'CA', 'CL', 'CO', 'CR', 'CY', 'CZ', 'DK', 'DO', 'DE', 'EC', 'EE', 'SV', 'FI', 'FR', 'GR', 'GT', 'HN', 'HK', 'HU', 'IS', 'IE', 'IT', 'LV', 'LT', 'LU', 'MY', 'MT', 'MX', 'NL', 'NZ', 'NI', 'NO', 'PA', 'PY', 'PE', 'PH', 'PL', 'PT', 'SG', 'SK', 'ES', 'SE', 'CH', 'TW', 'TR', 'UY', 'US', 'GB', 'AD', 'LI', 'MC', 'ID', 'JP', 'TH', 'VN', 'RO', 'IL', 'ZA', 'SA', 'AE', 'BH', 'QA', 'OM', 'KW', 'EG', 'MA', 'DZ', 'TN', 'LB', 'JO', 'PS', 'IN', 'BY', 'KZ', 'MD', 'UA', 'AL', 'BA', 'HR', 'ME', 'MK', 'RS', 'SI', 'KR', 'BD', 'PK', 'LK', 'GH', 'KE', 'NG', 'TZ', 'UG', 'AG', 'AM', 'BS', 'BB', 'BZ', 'BT', 'BW', 'BF', 'CV', 'CW', 'DM', 'FJ', 'GM', 'GE', 'GD', 'GW', 'GY', 'HT', 'JM', 'KI', 'LS', 'LR', 'MW', 'MV', 'ML', 'MH', 'FM', 'NA', 'NR', 'NE', 'PW', 'PG', 'WS', 'SM', 'ST', 'SN', 'SC', 'SL', 'SB', 'KN', 'LC', 'VC', 'SR', 'TL', 'TO', 'TT', 'TV', 'VU', 'AZ', 'BN', 'BI', 'KH', 'CM', 'TD', 'KM', 'GQ', 'SZ', 'GA', 'GN', 'KG', 'LA', 'MO', 'MR', 'MN', 'NP', 'RW', 'TG', 'UZ', 'ZW', 'BJ', 'MG', 'MU', 'MZ', 'AO', 'CI', 'DJ', 'ZM', 'CD', 'CG', 'IQ', 'LY', 'TJ', 'VE', 'ET', 'XK'],
+    'disc_number': 1,
+    'duration_ms': 71124,
+    'explicit': False,
+    'external_ids': {
+        'isrc': 'DEQ121857071'
+        },
+    'external_urls': {
+        'spotify': 'https://open.spotify.com/track/3eKvCCCbY4yhPX3NLn5yLN'
+        },
+    'href': 'https://api.spotify.com/v1/tracks/3eKvCCCbY4yhPX3NLn5yLN',
+    'id': '3eKvCCCbY4yhPX3NLn5yLN',
+    'is_local': False,
+    'name': 'wake.up',
+    'popularity': 43,
+    'preview_url': 'https://p.scdn.co/mp3-preview/2d93cdf913df5d1ea0c815953cd6bbd47cebcc07?cid=c6ce5af1c46b4145bd77d022b9f5397f',
+    'track_number': 12,
+    'type': 'track',
+    'uri': 'spotify:track:3eKvCCCbY4yhPX3NLn5yLN'
+    },
+'currently_playing_type': 'track',
+'actions':
+    {
+    'disallows':
+        {
+        'resuming': True,
+        'toggling_repeat_context': True,
+        'toggling_repeat_track': True,
+        'toggling_shuffle': True
+        }
+    },
+'is_playing': True
+}
