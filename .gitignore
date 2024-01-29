@@ -1,2 +1,6 @@
 #
 .cache
+spotify.spec
+credentials.txt
+/build
+/dist
